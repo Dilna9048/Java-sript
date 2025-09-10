@@ -1,0 +1,9 @@
+primative
+
+1.string   '',""
+2 number   6,78.876
+3 boolen   true/false
+4 null     absense of value
+5 undefined  variable that has been declared but not assined a value
+6 symbol     unique immutable values,used with object property keys
+8 bigint     work with very large number
