@@ -1,0 +1,11 @@
+ operators are symbols or keywords used perform operaton on variables on variables a
+
+
+
+ 1. arithamatic
+ 2. assignment
+ 3. comparison
+ 4. logical
+ 5. ternary
+
+

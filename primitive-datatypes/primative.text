@@ -6,4 +6,4 @@ primative
 4 null     absense of value
 5 undefined  variable that has been declared but not assined a value
 6 symbol     unique immutable values,used with object property keys
-8 bigint     work with very large number
+7 bigint     work with very large number
