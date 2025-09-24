@@ -13,7 +13,7 @@ car.start();
 //example2
 const person = {
     name:"Dilna T",
-    age:23,
+    age:31,
     greet:function(){
         console.log(Hello,myname is ${this.name});      //this - it is a keyword,it refers the object itself(used to access the properties and method)
         

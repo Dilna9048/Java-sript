@@ -3,8 +3,8 @@
 //applicable for any type of data
 
 const person = {
-    name:'anjana',
-    age:'20',
+    name:'Dilna',
+    age: 31,
     isStudent:true
 }
 console.log(person.name);
@@ -14,7 +14,7 @@ console.log(person.age);
 person.city = "calicut"
 
 //modifying data
-person.age = "24"
+person.age = 31
 console.log(person);
 
 //remove a properties from object
