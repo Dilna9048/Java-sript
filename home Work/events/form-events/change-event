@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Event Example</title>
+</head>
+<body>
+  <h3>Change Event Example (Input Field)</h3>
+
+  <input type="text" id="username" placeholder="Enter your name">
+
+  <p id="msg"></p>
+
+  <script>
+    const input = document.getElementById("username");
+    const msg = document.getElementById("msg");
+
+    input.addEventListener("change", function() {
+      msg.textContent = "You changed the name to: " + input.value;
+    });
+  </script>
+</body>
+</html>

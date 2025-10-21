@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Event Example</title>
+</head>
+<body>
+  <h3>Input Event Example</h3>
+
+  <input type="text" id="name" placeholder="Type something...">
+  <p id="output"></p>
+
+  <script>
+    const nameInput = document.getElementById("name");
+    const output = document.getElementById("output");
+
+    nameInput.addEventListener("input", function() {
+      output.textContent = "Current value: " + nameInput.value;
+    });
+  </script>
+</body>
+</html>

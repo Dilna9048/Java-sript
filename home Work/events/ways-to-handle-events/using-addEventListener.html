@@ -1,0 +1,31 @@
+/*you can attach multiple handlers to the same event you can remove listerns
+later it needeed clenear more exaple*/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">click me</button>
+    <script>
+      let button = document.getElementById("btn");
+      //adding events
+      button.addEventListener("click", function () {
+        alert("Button Clicked Using addEventListener")
+      })
+      //adding another event for same button
+      button.addEventListener("click", function () {
+        console.log("another function for same btn")
+      })
+      //another event
+      button.addEventListener('click',function(){
+        button.style.background='red';
+        button.style.border='none';
+        button.style.color='white';
+      }) 
+    </script>
+  </body>
+</html>
